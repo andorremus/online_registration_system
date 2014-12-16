@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" serverName="University Server">
     <serverData>
       <paths name="University Server">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/CSY2028/assign1" local="$PROJECT_DIR$" web="~13430492/CSY2028/assign1/add.php" />
+            <mapping deploy="/public_html/CSY2028/assign1" local="$PROJECT_DIR$" web="~13430492/CSY2028/assign1/" />
           </mappings>
         </serverdata>
       </paths>
