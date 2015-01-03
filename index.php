@@ -11,26 +11,37 @@
      * Time: 17:37 222
      */
 
+    require_once('databaseConnection.php');
 
-    $servername = "194.81.104.22";
+    $host = "194.81.104.22";
     $username = "s13430492";
     $password = "remian10";
-    $dbname = "CSY2028_13430492";
+    $dbName = "CSY2028_13430492";
 
-    $connection = new mysqli($servername, $username, $password, $dbname);
+    $dbConnection = new databaseConnection($host, $username, $password, $dbName);
 
-    // Check connection for errors
+    $findAvailableRoomsSQL ="SELECT roomId,capacity from Room";
 
-    if ($connection->connect_error) {
-        die("Connection failed :" . $connection->connect_error);
+    $roomsAvailable = $dbConnection->getLink()->query($findAvailableRoomsSQL);
+    var_dump($roomsAvailable);
+
+    $row = $roomsAvailable->fetch_assoc();
+    $capacity = (int) $row['capacity'];
+    var_dump($capacity);
+
+    function displayRooms()
+    {
+        global $roomsAvailable;
+        while ($row = $roomsAvailable->fetch_assoc())
+        {
+            echo "<option>" .$row['roomId'].$row['roomName']. "</i><br></option>";
+        }
     }
 
-    $findAvailableRoomsSQL =$connection->query( "SELECT roomId,capacity from Room where available=TRUE");
+    $dbConnection->getLink()->close();
 
-    $row = $findAvailableRoomsSQL->fetch_assoc();
-    $capacity = (int) $row['capacity'];
 
-    $connection->close();
+
 
 
     ?>
@@ -41,25 +52,18 @@
 <form action="add.php" method="post">
     <p>Title:<input type="text" name="title" value=""></p><br>
 
-    <p>Location<input type="text" name="location" value=""></p><br>
+    <p>Location:<input type="text" name="location" value=""></p><br>
 
-    <p>Starting Time and Date<input type="text" name="startTime" value=""></p><br>
+    <p>Starting Time and Date (YYYY-MM-DD HH-MM-SS): <input type="text" name="startTime" value=""></p><br>
 
-    <p>Ending Time and Date<input type="text" name="endTime" value=""></p><br>
+    <p>Ending Time and Date (YYYY-MM-DD HH-MM-SS) :<input type="text" name="endTime" value=""></p><br>
 
     <p>Description:<input type="text" name="description" value=""></p><br>
 
     <p>Room to be Held In:
         <select name="room">
             <?php
-            function displayRooms()
-            {
-                global $findAvailableRoomsSQL;
-                while ($row = $findAvailableRoomsSQL->fetch_assoc())
-                {
-                    echo "<option>" .$row['roomId']. "</i><br></option>";
-                }
-            }
+
             displayRooms();
 
             ?>

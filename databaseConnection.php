@@ -40,4 +40,8 @@ class databaseConnection
 
     }
 
+    public function getLink()
+    {
+        return $this->link;
+    }
 }

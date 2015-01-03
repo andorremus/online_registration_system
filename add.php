@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <html>
 <head>
 
@@ -8,72 +9,28 @@
 <body>
 <?php
 
-$servername = "194.81.104.22";
-$username = "s13430492";
-$password = "remian10";
-$dbname = "CSY2028_13430492";
-$placesAvailable = (int)($_POST['placesAvailable']);
-//var_dump($placesAvailable);
-$roomId = (int)($_POST['roomId']);
+require_once ('Seminar.php');
+require_once ('databaseConnection.php');
 
-//var_dump($roomId);
+if (isset($_POST))
+{
+    $dbConnection = new databaseConnection('194.81.104.22','s13430492','remian10','CSY2028_13430492');
+
+    $title = $_POST['title'];
+    $startTime = $_POST['startTime'];
+    $endtime = $_POST['endTime'];
+    $description = $_POST['description'];
+    $description = mysqli_escape_string($dbConnection->getLink(),$description);
+    $room = $_POST['room'];
 
 
-var_dump($roomId);
 
-// Create a new connection to the database
 
-$connection = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection for errors
+    //$seminarToAdd = new Seminar()
 
-if ($connection->connect_error) {
-    die("Connection failed :" . $connection->connect_error);
+
 }
-
-
-// Testing query
-/*$registerSQL = "INSERT INTO Seminar (seminarId,title,location,startTime,endTime,description,roomUsed,placesAvailable)
-           values (2,'Employable imporvements','Newton Building','2014-01-12 14:00:00','2014-01-12 14:30:00',
-               'An event that will make you think about your employability skills',2,250)";*/
-
-
-
-
-/*$lastSeminarId= $connection->query("SELECT MAX('seminarId')from Seminar ");
-var_dump($lastSeminarId);*/
-
-
-// Define the registration query
-
-$registerSQL = "INSERT INTO Seminar (title,startTime,endTime,description,placesAvailable)
-                          values ('" . $_POST['title']."','" . $_POST['startTime']."','" . $_POST['endTime']."',
-                          '" . $_POST['description']."','$placesAvailable')";
-//$allocateRoom ="INSERT INTO Allocated_Room (roomId) values($roomId)";
-
-/* echo $_POST['title'] ;
- echo $_POST['location'];
- echo $_POST['startTime'];
- echo $_POST['endTIme'];
- echo $_POST['description'];
- echo $roomId;
- echo $placesAvailable;*/
-//This is to test if it works
-// Check if the query is valid
-
-if (!$connection->query($registerSQL )) {
-    die('There was an error running the query ' . $connection->error);
-} else {
-    echo "New seminar created successfully;";
-}
-$connection->close();
-
-
-
-
-
-
-
 ?>
 
 
