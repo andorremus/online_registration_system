@@ -20,21 +20,25 @@
 
     $dbConnection = new databaseConnection($host, $username, $password, $dbName);
 
-    $findAvailableRoomsSQL ="SELECT roomId,capacity from Room";
+    $findAvailableRoomsSQL ="SELECT roomId,roomName,capacity,location from Room";
+    //var_dump($findAvailableRoomsSQL);
 
     $roomsAvailable = $dbConnection->getLink()->query($findAvailableRoomsSQL);
-    var_dump($roomsAvailable);
 
-    $row = $roomsAvailable->fetch_assoc();
+
+   /* $row = $roomsAvailable->fetch_assoc();
     $capacity = (int) $row['capacity'];
     var_dump($capacity);
+    $name = $row['roomName'];
+    var_dump($name);*/
+
 
     function displayRooms()
     {
         global $roomsAvailable;
         while ($row = $roomsAvailable->fetch_assoc())
         {
-            echo "<option>" .$row['roomId'].$row['roomName']. "</i><br></option>";
+            echo "<option>" . $row['roomId'] .  "</i><br></option>";
         }
     }
 
@@ -45,35 +49,61 @@
 
 
     ?>
+    <style>
+        .regForm
+        {
+            table-border-color-light: #1f1b82;
+            border-style: solid;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+
+    </style>
+
 <meta charset="UTF-8">
-<title>Add page</title>
+<title>Index Page</title>
 </head>
 <body>
 <form action="add.php" method="post">
-    <p>Title:<input type="text" name="title" value=""></p><br>
+    <table class="regForm">
+        <caption><b>Seminar Registration Form<b></caption>
+        <tr><td>Title:</td><td><input type="text" name="title" value=""></td></tr>
 
-    <p>Location:<input type="text" name="location" value=""></p><br>
+        <tr><td>Starting Time and Date (YYYY-MM-DD HH-MM-SS):</td><td> <input type="text" name="startTime" value=""></td></tr>
 
-    <p>Starting Time and Date (YYYY-MM-DD HH-MM-SS): <input type="text" name="startTime" value=""></p><br>
+        <tr><td>Ending Time and Date (YYYY-MM-DD HH-MM-SS) :</td><td> <input type="text" name="endTime" value=""></td></tr>
 
-    <p>Ending Time and Date (YYYY-MM-DD HH-MM-SS) :<input type="text" name="endTime" value=""></p><br>
+        <tr><td>Description:</td><td><input type="text" name="description" value=""></td></tr>
 
-    <p>Description:<input type="text" name="description" value=""></p><br>
+        <tr><td>Room to be Held In:
 
-    <p>Room to be Held In:
-        <select name="room">
-            <?php
+                </td><td><select name="room">
+                    <?php
+                    displayRooms();
+                    ?>
+                    </select></td></tr>
 
-            displayRooms();
+        <tr><td>Places Available in Seminar:</td><td> <input type="number" min="1" max="<?php global $capacity; echo $capacity?>" name="placesAvailable" value=""></td></tr>
+    </table>
 
-            ?>
+    <table class="regForm">
+        <caption><b>Seminar Speakers Registration Form<b></caption>
+        <tr><td>First Name:</td><td><input type="text" name="firstName"></td></tr>
+
+        <tr><td>Last Name:</td><td><input type="text" name="lastName"></td></tr>
+
+        <tr><td>E-mail:</td><td><input type="text" name="email"></td></tr>
+
+        <tr><td>Address:</td><td><input type="text" name="address"></td></tr>
+
+        <tr><td>Institution:</td><td><input type="text" name="institution"></td></tr>
 
 
-        </select></p><br>
 
-    <p>Places Available in Seminar:<input type="number" min="1" max="<?php global $_capacity; echo $capacity?>" name="placesAvailable" value=""></p><br>
 
-    <p><input type="submit" value="Add Seminar"></p>
+
+        <tr><td><input type="submit" value="Add Seminar"></td></tr>
+    </table>
 
 
 </form>

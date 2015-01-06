@@ -10,14 +10,16 @@ class Seminar
     private $endTime;
     private $description;
     private $placesAvailable;
+    private $roomId;
 
-    public function __construct($title, $startTime, $endTime, $description, $placesAvailable)
+    public function __construct($title, $startTime, $endTime, $description, $placesAvailable,$roomId)
     {
         $this->title = $title;
         $this->startTime = $startTime;
         $this->endTime = $endTime;
         $this->description = $description;
         $this->placesAvailable = $placesAvailable;
+        $this->roomId = $roomId;
     }
 
     public function getTitle() {
@@ -38,7 +40,12 @@ class Seminar
 
     public function getPlacesAvailable()
     {
-        return $this->getPlacesAvailable();
+        return $this->placesAvailable;
+    }
+
+    public function getRoomId()
+    {
+        return $this->roomId;
     }
     public function getLink()
     {
