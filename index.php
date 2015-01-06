@@ -7,8 +7,8 @@
     /**
      * Created by PhpStorm.
      * User: Remus
-     * Date: 16/12/2014
-     * Time: 17:37 222
+     * Date: 06/01/2015
+     * Time: 17:37 Version 1.0.5 Functionality is correct
      */
 
     require_once('databaseConnection.php');

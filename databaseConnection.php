@@ -31,9 +31,6 @@ class databaseConnection
         $address = $speaker->getAddress();
         $institution = $speaker->getInstitution();
 
-        // Establish connection to database
-        $dbConnection = new databaseConnection('194.81.104.22','s13430492','remian10','CSY2028_13430492');
-
         // Query definition for adding values into the Seminar table
         $sql = "INSERT INTO Seminar VALUES(NULL,'$title','$startTime','$endTime','$description','$placesAvailable')";
 
@@ -53,8 +50,6 @@ class databaseConnection
         {
             echo "New seminar created successfully;". "<br>";
         }
-
-
 
         $maxResult = $this->link->query($sql3);
         $row = $maxResult->fetch_assoc();
@@ -79,7 +74,7 @@ class databaseConnection
         }
         else
         {
-            echo "New Speaker created successfully;" . "<br> ";
+            echo " New Speaker created successfully;" . "<br> ";
         }
 
         $maxResult2 = $this->link->query($sql4);
@@ -93,7 +88,7 @@ class databaseConnection
 
         if(!($this->link->query($sqlSeminarSpeaker) ) ) // Actual querying to insert values into Seminar_has_Speaker
         {
-            die('There was an error running the query Sqlseminarspeaker' . $this->link->error);
+            die('There was an error running the query SqlSeminarspeaker' . $this->link->error);
         }
         else
         {
@@ -102,7 +97,58 @@ class databaseConnection
 
 
         $maxResult->free();
-        $dbConnection->link->close();
+        $this->link->close();
+
+    }
+
+    public function addAttendee(Attendee $attendee)
+    {
+        $firstName   = $attendee->getFirstName();
+        $lastName    = $attendee->getLastName();
+        $email       = $attendee->getEmail();
+        $institution = $attendee->getInstitution();
+
+        // Query definition to insert values into Attendee table
+        $sqlInsertAttendee = "INSERT INTO Attendee VALUES (NULL ,'$firstName','$lastName','$email','$institution')";
+
+        if(!($this->link->query($sqlInsertAttendee))) // Actual querying action of inserting values into Attendee table
+        {
+            die('There was an error running the query sqlInsertAttendee' . $this->link->error);
+        }
+        else
+        {
+            echo "Attendee created successfully!";
+        }
+
+        $seminarId =$_GET['seminarId'];
+        $seminarId = (int) $seminarId;
+        echo "Seminar ID db: " . $seminarId;
+
+        $sqlAttendeeNo = "SELECT MAX(attendeeId) AS  attendeeNo FROM Attendee";
+        $attendeeNoResult = $this->link->query($sqlAttendeeNo);
+        $row = $attendeeNoResult->fetch_assoc();
+        $attendeeNo = $row['attendeeNo'];
+        echo " Att no: ".$attendeeNo;
+
+
+        // Query definition for assigning a ticket id and the rest of the values into the Attendee_attends_Seminar table
+        $sqlAssignTicketNo = "INSERT INTO Attendee_attends_Seminar VALUES (NULL,$attendeeNo,$seminarId)";
+        echo $sqlAssignTicketNo;
+
+        if(!($this->link->query($sqlAssignTicketNo)))
+        {
+            die('There was an error running the query sqlAssignTicket' . $this->link->error);
+        }
+        else
+        {
+            echo "Attendee assigned ticket number successfully!";
+        }
+
+
+
+
+
+
 
     }
 
