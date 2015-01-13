@@ -20,35 +20,88 @@
 
     $dbConnection = new databaseConnection($host, $username, $password, $dbName);
 
-    $findAvailableRoomsSQL ="SELECT roomId,roomName,capacity,location from Room";
-    //var_dump($findAvailableRoomsSQL);
+    $sqlRoomCapacities ="SELECT capacity from Room";
+    $roomsCapacities = $dbConnection->getLink()->query($sqlRoomCapacities);
 
-    $roomsAvailable = $dbConnection->getLink()->query($findAvailableRoomsSQL);
+    $sqlRoomNo = "SELECT roomId FROM Room";
+    $roomNo = $dbConnection->getLink()->query($sqlRoomNo);
+
+    $sqlRoomDetails = "SELECT roomName,location from Room";
+    $roomDetails = $dbConnection->getLink()->query($sqlRoomDetails);
+
+    $roomDetailsArray = array();
+    $x = 0;
+    while($row = $roomDetails->fetch_assoc())
+    {
+        $roomDetailsArray[$x] = $row['roomName'];
+        $x++;
+        $roomDetailsArray[$x] = $row['location'];
+        $x++;
+    }
+    //var_dump($roomDetailsArray[0]);
 
 
-   /* $row = $roomsAvailable->fetch_assoc();
-    $capacity = (int) $row['capacity'];
-    var_dump($capacity);
-    $name = $row['roomName'];
-    var_dump($name);*/
+
+    $rCap = array();
+    $i = 0;
+    while ($row = $roomsCapacities->fetch_assoc())
+    {
+        $rCap[$i] =  $row['capacity'];
+        $rCap[$i] = (int) $rCap[$i];
+        $i++;
+    }
 
 
     function displayRooms()
     {
-        global $roomsAvailable;
-        while ($row = $roomsAvailable->fetch_assoc())
+        global $roomNo;
+        while ($row = $roomNo->fetch_assoc())
         {
             echo "<option>" . $row['roomId'] .  "</i><br></option>";
         }
     }
 
-    $dbConnection->getLink()->close();
+
 
 
 
 
 
     ?>
+    <script>
+        function chooseCapacity()
+        {
+            var roomChosen = document.getElementById("room").value;
+            var roomCounter = '<?php echo count($rCap);
+                                    $rCap = implode(",",$rCap);?>' ;
+            //document.write(roomCounter);
+            var capacity = '<?php global $rCap ; echo $rCap ?>';
+            capacity =  capacity.split(",");
+
+            var roomDetails = '<?php $roomDetailsArray = implode(",",$roomDetailsArray);
+                                     echo $roomDetailsArray;
+                                          ?>';
+            roomDetails = roomDetails.split(",");
+            roomDetails.unshift(null);
+            document.getElementById("capacity").max = capacity[roomChosen-1];
+            document.getElementById("roomHeld").innerHTML = "Room to be Held In: " + roomDetails[(roomChosen*2)-1] + " - " + roomDetails[(roomChosen*2)];
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
     <style>
         .regForm
         {
@@ -75,15 +128,17 @@
 
         <tr><td>Description:</td><td><input type="text" name="description" value=""></td></tr>
 
-        <tr><td>Room to be Held In:
+        <tr><td id="roomHeld">Room to be Held In:
 
-                </td><td><select name="room">
+                </td><td><select id="room" onchange="chooseCapacity()">
                     <?php
+
                     displayRooms();
+
                     ?>
                     </select></td></tr>
 
-        <tr><td>Places Available in Seminar:</td><td> <input type="number" min="1" max="<?php global $capacity; echo $capacity?>" name="placesAvailable" value=""></td></tr>
+        <tr><td>Places Available in Seminar:</td><td> <input type="number" min="1" max="" id="capacity" value=""></td></tr>
     </table>
 
     <table class="regForm">

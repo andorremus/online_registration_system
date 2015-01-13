@@ -1,53 +1,168 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+    <style>
 
-<?php
-/**
- * Created by PhpStorm.
- * User: Remus
- * Date: 04/01/2015
- * Time: 11:37
- */
-if (isset($_POST['firstName']))
-{
-    require_once('databaseConnection.php');
-    require_once('Attendee.php');
+        *
+        {
+            font-family: "Book Antiqua", "Times New Roman";
+        }
+        #tableTicket
+        {
+            border-collapse: collapse;
+            font-family: sans-serif;
+            border-color: 000000;
+            width: 50%;
 
-    $host = "194.81.104.22";
-    $username = "s13430492";
-    $password = "remian10";
-    $dbName = "CSY2028_13430492";
+        }
+        td
+        {
+            border: solid 1px black;
+            text-align: center;
+        }
+        #seminarNo
+        {
+            font-size: 20px;
+            text-align: center;
+        }
 
-    $dbConnection = new databaseConnection($host, $username, $password, $dbName);
+        #names
+        {
 
-    echo  "Post set!";
-    //var_dump($_POST);
+        }
 
-    $firstName = $_POST['firstName'];
-    $firstName  = mysqli_escape_string($dbConnection->getLink(),$firstName);
+        #ticketId
+        {
+            font-size: 20px;
+            text-align: center;
+        }
 
-    $lastName = $_POST['lastName'];
-    $lastName = mysqli_escape_string($dbConnection->getLink(),$lastName);
+        #title
+        {
 
-    $email = $_POST['email'];
-    $email = mysqli_escape_string($dbConnection->getLink(),$email);
+        }
 
-    $institution = $_POST['institution'];
-    $institution = mysqli_escape_string($dbConnection->getLink(),$institution);
+        #description
+        {
+            height: auto;
+            width: auto;
+        }
 
-    $attendeeToAdd = new Attendee($firstName,$lastName,$email,$institution);
+        #locationAndTime
+        {
 
-    $dbConnection->addAttendee($attendeeToAdd);}
+        }
+    </style>
 
-else
-{
 
-// This retrieves the seminar that the attendee wants to register for from the url and assigns it into the variable for further use
+    <?php
+    /**
+     * Created by PhpStorm.
+     * User: Remus
+     * Date: 04/01/2015
+     * Time: 11:37
+     */
+    if (isset($_POST['firstName']))
+    {
+        require_once('databaseConnection.php');
+        require_once('Attendee.php');
+        //require_once('./PHPMailer/PHPMailerAutoload.php');
 
-$seminarId = $_GET['seminarId'];
-$seminarId = (int) $seminarId;
-//echo "Seminar ID REg " . $seminarId;
+        $host = "194.81.104.22";
+        $username = "s13430492";
+        $password = "remian10";
+        $dbName = "CSY2028_13430492";
+        //$mail = new PHPMailer;
+        $seminarId = $_GET['seminarId'];
+
+        // Create a database connection object for further use
+        $dbConnection = new databaseConnection($host, $username, $password, $dbName);
+
+        //echo  "Post set!";
+        //var_dump($_POST);
+
+        // Get $_POST values from the form
+
+        $firstName = $_POST['firstName'];
+        $firstName  = mysqli_escape_string($dbConnection->getLink(),$firstName);
+
+        $lastName = $_POST['lastName'];
+        $lastName = mysqli_escape_string($dbConnection->getLink(),$lastName);
+
+        $email = $_POST['email'];
+        $email = mysqli_escape_string($dbConnection->getLink(),$email);
+
+        $institution = $_POST['institution'];
+        $institution = mysqli_escape_string($dbConnection->getLink(),$institution);
+
+        // Retrieve seminar places availability
+        $sqlCheckPlaces = "SELECT DISTINCT COUNT(DISTINCT Attendee_attends_Seminar.attendeeId) as placesFilled,Seminar.placesAvailable from Attendee_attends_Seminar JOIN Seminar USING  (seminarId) WHERE Attendee_attends_Seminar.seminarId =$seminarId";
+        $sqlPlacesResult = $dbConnection->getLink()->query($sqlCheckPlaces);
+        $row = $sqlPlacesResult->fetch_assoc();
+        $placesFilled = $row['placesFilled'];
+        $placesAvailable = $row['placesAvailable'];
+        $placesFilled= (int) $placesFilled;
+        $placesAvailable= (int) $placesAvailable;
+
+        // Check wheter there are available places in the seminar and branch out accordingly
+
+        if($placesFilled < $placesAvailable)
+        {
+            $attendeeToAdd = new Attendee($firstName, $lastName, $email, $institution);
+            $dbConnection->addAttendee($attendeeToAdd);
+
+        }
+        else
+        {
+            echo "<h2> We are sorry but there are no more available spaces in the seminar. ";
+        }
+
+        $dbConnection->getLink()->close();
+
+        /*$mail->isSMTP();
+        $mail->SMTPDebug = 2;
+        $mail->Debugoutput = 'html';
+        $mail->Host = 'smtp.gmailcom';
+        $mail->Port = 587;
+        $mail->SMTPSecure = 'tls';
+        $mail->SMTPAuth = true;
+        $mail->Username = "andor.remus@gmail.com";
+        $mail->Password = "passhere";
+        $mail->setFrom('andor.remus@gmail.com','Remus Andor');
+        $mail->addReplyTo('andor.remus@gmail.com','Remus Andor');
+        $mail->addAddress($email,$firstName ." ". $lastName);
+        $mail->Subject = 'Ticket for the Registration';
+        $mail->Body = "This is ticket body";
+        $mail->AltBody = 'This is a plain text message body';
+        if(!$mail->send())
+        {
+            echo "Mailer Error :" . $mail->ErrorInfo;
+        }
+        else
+        {
+            echo "Message sent!";
+        }*/
+
+
+    }
+
+    else
+    {
+
+    // This retrieves the seminar that the attendee wants to register for from the url and assigns it into the variable for further use
+
+    $seminarId = $_GET['seminarId'];
+    $seminarId = (int) $seminarId;
+
+    if(empty($seminarId))
+    {
+        echo " There is no seminar inputted for registration!";
+    }
+    else
+    {
+        echo  "<h2><b>" ." You are registering for seminar number : ". $seminarId  . "</b></h2>";
+    }
+    //echo "Seminar ID REg " . $seminarId;
 
     ?>
     <style>
@@ -98,6 +213,8 @@ $seminarId = (int) $seminarId;
 <?php
 
 }
+
+
 
 ?>
 </html>
