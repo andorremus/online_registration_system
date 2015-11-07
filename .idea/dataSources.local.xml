@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - CSY2028_13430492@194.81.104.22" uuid="bafa3653-8e9b-43c9-a8b9-50f3f5887df1">
+    <data-source name="MySQL - Assigment2" uuid="e0c2fa33-4f21-46d7-a15f-719b27be93c8">
       <secret-storage>master_key</secret-storage>
       <user-name>s13430492</user-name>
       <schema-pattern>CSY2028_13430492.*</schema-pattern>

@@ -10,9 +10,6 @@ class Centre_Manager
 {
     private $login;
     private $password;
-    private $firstName;
-    private $lastName;
-    private $email;
 
     public function __construct($login,$password)
     {

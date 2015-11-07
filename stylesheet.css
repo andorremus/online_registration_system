@@ -1,0 +1,78 @@
+body
+{
+  
+ font-family:"Book Antiqua","Times New Roman";
+ font-style: normal;
+ background-image:url(res/common/bg_pattern.gif);
+ overflow: auto;
+
+ 
+}
+#content /* Here starts the content */
+{
+    border:1px black solid;
+    border-radius:10px;
+    position: relative;
+    text-align:left;
+    display: block;
+    width: auto;
+    padding:5px 5px 5px 5px;
+    height: auto;
+    margin-top: 20px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+
+#page /*this is the whole page*/
+{
+margin: 0 auto 0 auto;
+height: auto;
+position: relative;
+border:1px solid black;
+border-radius: 10px;
+width: 1000px;
+background-color:white;
+padding:10px 10px 10px 10px ;
+
+}
+#header/*This is the header*/
+{
+    width: auto;
+    height: 200px;
+    border:5px;
+    display:block;
+}
+#homelogo
+{
+    background-image: url(res/common/Remus.jpg);
+    width: 278px;
+    height: 124px;
+    text-indent: -9999px;
+    position: absolute;
+    left:10px;
+    top:20px;
+    display: inline-block;
+    clear:both;
+    
+}
+#klogo
+{
+   background-image:url(res/common/kisp.jpg);
+   width: 478px;
+   height: 161px;
+   display: inline-block;
+   text-indent: -999px;
+   clear:left;
+   margin-left: 500px;
+
+}
+#clock
+{ 
+  width:190px;
+  height: 34px;
+  display: block;
+  clear:both;
+}
+
+

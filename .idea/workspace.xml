@@ -1,13 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/application/views/registration_center_view.php" line="759" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/application/views/registration_center_view.php" line="333" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e987ca01-65b1-431c-944e-c9c02014fc3f" name="Default" comment="Added up to date sql dialect file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/databaseConnection.php" afterPath="$PROJECT_DIR$/databaseConnection.php" />
+    <list default="true" id="e7dee4cc-a6df-4e5e-896a-cea523844370" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sql/create_database2.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sql/sql_insert.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\Attendee.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\Centre_Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\README.md" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\Seminar.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\Speaker.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\add.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\analyticstracking.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\databaseConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\draw.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\logout.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\logoutOverview.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\overview.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\register.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\April.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\August.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\December.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\February.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Friday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\January.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\July.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\June.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\March.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\May.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Monday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\November.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\October.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Remus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Saturday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\September.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Sunday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Thursday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\Tuesday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\bg_pattern.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c0.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c1.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c2.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c3.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c4.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c5.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c6.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c7.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c8.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\c9.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\cam.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\colon.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\cpm.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\kisp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\nd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\of.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\rd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\st.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\th.jpg" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\res\common\wednesday.gif" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\seminarOrganiser.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\seminarOverview.php" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\ticket.html" afterPath="" />
+      <change type="DELETED" beforePath="I:\CSY2028 - Web programming\Assignment2Folder\a2\withdraw.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="online_registration_system.iws" />
+    <ignored path="bus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,181 +105,80 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - CSY2028_13430492@194.81.104.22" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="online_registration_system" />
+    <favorites_list name="bus" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="registration_center_view.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/registration_center_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30312034" vertical-offset="1224" max-vertical-offset="2924">
-              <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-              <folding>
-                <element signature="e#56#196#0#PHP" expanded="true" />
-                <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-                <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-                <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-                <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-                <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-                <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-                <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-                <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-                <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-                <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="357" max-vertical-offset="1479">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="9.134378" vertical-offset="207" max-vertical-offset="13005">
+              <caret line="492" column="21" selection-start-line="492" selection-start-column="21" selection-end-line="492" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.076923" vertical-offset="808" max-vertical-offset="2873">
-              <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1421163132000" expanded="true" signature="2173:2385" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-                <marker date="1421163132000" expanded="true" signature="2173:2386" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="databaseConnection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databaseConnection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.769231" vertical-offset="4517" max-vertical-offset="6766">
-              <caret line="354" column="54" selection-start-line="354" selection-start-column="54" selection-end-line="354" selection-end-column="54" />
-              <folding>
-                <element signature="n#withdrawAttendee#0;n#databaseConnection#0;n#!!top" expanded="false" />
-                <element signature="n#verifyOrganiser#0;n#databaseConnection#0;n#!!top" expanded="false" />
-                <marker date="1421164754000" expanded="true" signature="1056:1155" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="1251:1345" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="1429:1477" placeholder="SELECT MAX(s..Seminar..." />
-                <marker date="1421164754000" expanded="true" signature="1497:1545" placeholder="SELECT MAX(s..Speaker..." />
-                <marker date="1421164754000" expanded="true" signature="2127:2184" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="3088:3156" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="4131:4244" placeholder="SELECT Atten..Attendee..." />
-                <marker date="1421164754000" expanded="true" signature="4636:4914" placeholder="SELECT Atten..Attendee..." />
-                <marker date="1421164754000" expanded="true" signature="5297:5381" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="5752:5803" placeholder="SELECT MAX(a..Attendee..." />
-                <marker date="1421164754000" expanded="true" signature="6179:6252" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="6665:6727" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-                <marker date="1421164754000" expanded="true" signature="6978:7143" placeholder="SELECT DISTI..Seminar..." />
-                <marker date="1421164754000" expanded="false" signature="7717:8517" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="7742:8055" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="8081:8175" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="8201:8301" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="8327:8495" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="9091:9142" placeholder="SELECT MAX(a..Attendee..." />
-                <marker date="1421164754000" expanded="true" signature="9542:9615" placeholder="INSERT INTO ..." />
-                <marker date="1421164754000" expanded="true" signature="10060:10122" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-                <marker date="1421164754000" expanded="true" signature="10393:10558" placeholder="SELECT DISTI..Seminar..." />
-                <marker date="1421164754000" expanded="false" signature="11172:11972" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="11197:11510" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="11536:11630" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="11656:11756" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="11782:11950" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="12829:13133" placeholder="SELECT DISTI..Attendee..." />
-                <marker date="1421164754000" expanded="true" signature="13312:13364" placeholder="DELETE FROM ..." />
-                <marker date="1421164754000" expanded="true" signature="13864:13935" placeholder="SELECT passw..Seminar_Organiser..." />
-                <marker date="1421164754000" expanded="true" signature="14352:15184" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
-                <marker date="1421164754000" expanded="true" signature="15396:16458" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="16688:16749" placeholder="SELECT passw..Centre_Management..." />
-                <marker date="1421164754000" expanded="true" signature="17090:17207" placeholder="SELECT Semin..Seminar..." />
-                <marker date="1421164754000" expanded="true" signature="17492:18062" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="17515:18037" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="18105:18222" placeholder="SELECT Semin..Seminar..." />
-                <marker date="1421164754000" expanded="true" signature="18364:18376" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="18535:19105" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="18558:19080" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="19153:19296" placeholder="SELECT Room...Allocated_Room..." />
-                <marker date="1421164754000" expanded="true" signature="19443:19455" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="19593:19861" placeholder="..." />
-                <marker date="1421164754000" expanded="true" signature="19616:19836" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seminarOverview.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seminarOverview.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077" vertical-offset="663" max-vertical-offset="2023">
-              <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
-              <folding>
-                <element signature="e#323#404#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overview.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overview.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="510" max-vertical-offset="2074">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-              <folding>
-                <element signature="e#387#468#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seminarOrganiser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seminarOrganiser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3461537" vertical-offset="109" max-vertical-offset="782">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="901">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Centre_Manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Centre_Manager.php">
+      <file leaf-file-name="registration_center.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/registration_center.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="629">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2943" max-vertical-offset="3553">
+              <caret line="203" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="203" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQL - CSY2028_13430492@194.81.104.22" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
+      <file leaf-file-name="registration_center_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/registration_center_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="17" max-vertical-offset="1326">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="7531" max-vertical-offset="8976">
+              <caret line="452" column="59" selection-start-line="452" selection-start-column="59" selection-end-line="452" selection-end-column="59" />
+              <folding>
+                <marker date="1430064372000" expanded="true" signature="2313:2426" placeholder="SELECT Atten..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="2826:3066" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="3762:4040" placeholder="SELECT Atten..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="4749:4833" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="5209:5260" placeholder="SELECT MAX(a..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="5590:5663" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="6043:6097" placeholder="SELECT atten..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="6427:6500" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="6977:7195" placeholder="SELECT Atten..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="7554:7637" placeholder="delete from ..." />
+                <marker date="1430064372000" expanded="true" signature="8046:8123" placeholder="select semin..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="8999:9098" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="9194:9288" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="9372:9420" placeholder="SELECT MAX(s..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="9440:9488" placeholder="SELECT MAX(s..Speaker..." />
+                <marker date="1430064372000" expanded="true" signature="10079:10136" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="11047:11115" placeholder="INSERT INTO ..." />
+                <marker date="1430064372000" expanded="true" signature="11531:11574" placeholder="SELECT max(s..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="12128:12278" placeholder="SELECT * fro..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="12536:12554" placeholder="SELECT * fro..Room..." />
+                <marker date="1430064372000" expanded="true" signature="12854:13198" placeholder="SELECT DISTI..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="13699:13768" placeholder="SELECT passw..Seminar_Organiser..." />
+                <marker date="1430064372000" expanded="true" signature="14204:15154" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="15486:15901" placeholder="SELECT COUNT..Attendee..." />
+                <marker date="1430064372000" expanded="true" signature="16386:16450" placeholder="SELECT passw..Centre_Management..." />
+                <marker date="1430064372000" expanded="true" signature="16876:17191" placeholder="SELECT Semin..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="17470:17672" placeholder="SELECT Semin..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="17966:18361" placeholder="select Alloc..Seminar..." />
+                <marker date="1430064372000" expanded="true" signature="18597:18740" placeholder="SELECT Room...Allocated_Room..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,26 +191,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/extra.php" />
-        <option value="$PROJECT_DIR$/Event.php" />
-        <option value="$PROJECT_DIR$/SeminarAdder.php" />
-        <option value="$PROJECT_DIR$/Seminar.php" />
-        <option value="$PROJECT_DIR$/Attendee.php" />
-        <option value="$PROJECT_DIR$/Speaker.php" />
-        <option value="$PROJECT_DIR$/add.php" />
-        <option value="$PROJECT_DIR$/withdraw.php" />
-        <option value="/MySQL Fragment (databaseConnection.php:6629).sql" />
-        <option value="$PROJECT_DIR$/seminarOrganiser.php" />
-        <option value="$PROJECT_DIR$/Centre_Manager.php" />
-        <option value="$PROJECT_DIR$/overview.php" />
-        <option value="$PROJECT_DIR$/seminarOverview.php" />
-        <option value="$USER_HOME$/Desktop/text.html" />
-        <option value="$USER_HOME$/Desktop/ticket.html" />
-        <option value="$PROJECT_DIR$/ticket.html" />
-        <option value="$PROJECT_DIR$/register.php" />
-        <option value="$PROJECT_DIR$/databaseConnection.php" />
-        <option value="db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="D:/exercises/AjaxIntro.html" />
+        <option value="$PROJECT_DIR$/application/helpers/xml_encoder.js" />
+        <option value="$PROJECT_DIR$/application/helpers/xml_encode.php" />
+        <option value="$PROJECT_DIR$/application/helpers/xml_helper_encode_helper.php" />
+        <option value="$PROJECT_DIR$/application/helpers/toXML_helper.php" />
+        <option value="$PROJECT_DIR$/application/helpers/ArrayToXML_helper.php" />
+        <option value="$PROJECT_DIR$/application/helpers/ss" />
+        <option value="db-console:/4eec331/e0c2fa33-4f21-46d7-a15f-719b27be93c8/" />
+        <option value="$PROJECT_DIR$/application/assets/js/javascript.js" />
+        <option value="$PROJECT_DIR$/application/assets/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/assets/.htaccess" />
+        <option value="$PROJECT_DIR$/application/helpers/utility_helper.php" />
+        <option value="$PROJECT_DIR$/application/views/header.php" />
+        <option value="$PROJECT_DIR$/application/views/footer.php" />
+        <option value="$PROJECT_DIR$/application/response/add_attendee.php" />
+        <option value="$PROJECT_DIR$/application/helpers/add.php" />
+        <option value="$PROJECT_DIR$/application/helpers/add_attendee.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Speaker.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Seminar_Organiser.php" />
+        <option value="$PROJECT_DIR$/application/views/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/main.php" />
+        <option value="$PROJECT_DIR$/system/database/DB_active_rec.php" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/views/showdetails_view.php" />
+        <option value="$PROJECT_DIR$/application/controllers/showdetails.php" />
+        <option value="$PROJECT_DIR$/application/models/showdetails_model.php" />
+        <option value="$PROJECT_DIR$/application/models/registration_center.php" />
+        <option value="$PROJECT_DIR$/application/libraries/database_connection.php" />
+        <option value="$PROJECT_DIR$/application/config/constants.php" />
+        <option value="db-console:/54f73064/e0c2fa33-4f21-46d7-a15f-719b27be93c8/" />
+        <option value="$PROJECT_DIR$/system/libraries/Form_validation.php" />
+        <option value="$PROJECT_DIR$/application/views/seminar_view.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Attendee.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Centre_Manager.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Seminar.php" />
+        <option value="$PROJECT_DIR$/application/helpers/xml_encode_helper.php" />
+        <option value="$PROJECT_DIR$/assets/js/javascript.js" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/system/core/URI.php" />
+        <option value="db-console:/3da0117/e0c2fa33-4f21-46d7-a15f-719b27be93c8/" />
+        <option value="$PROJECT_DIR$/application/controllers/registration_center.php" />
+        <option value="$PROJECT_DIR$/assets/sql/create_database2.sql" />
+        <option value="$PROJECT_DIR$/assets/sql/sql_insert.sql" />
+        <option value="db-console:/18eeed20/e0c2fa33-4f21-46d7-a15f-719b27be93c8/" />
+        <option value="$PROJECT_DIR$/application/models/registration_center_model.php" />
+        <option value="$PROJECT_DIR$/assets/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/application/views/templates/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/registration_center_view.php" />
+        <option value="db-console:/3cf8dc99/e0c2fa33-4f21-46d7-a15f-719b27be93c8/" />
+        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
       </list>
     </option>
   </component>
@@ -249,12 +250,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -277,67 +278,42 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="online_registration_system" />
+              <option name="myItemId" value="a2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="online_registration_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="online_registration_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="database.main" />
+    <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="recentsLimit" value="5" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/text.html" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="I:/CSY - Group Project/fitness4free/Group_Project_2" />
     <property name="FullScreen" value="false" />
-    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="PHP Script.databaseConnection.php">
-    <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://www.eng.nene.ac.uk/~13430492/CSY2028/assign1/index.php">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="add.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://www.eng.nene.ac.uk/~13430492/CSY2028/assign1/add.php">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="databaseConnection.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/databaseConnection.php">
-      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="register.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://www.eng.nene.ac.uk/~13430492/CSY2028/assign1/register.php">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\a2\assets\sql" />
+      <recent name="C:\wamp\www\bus\assets\img" />
+      <recent name="C:\wamp\www\bus\application\assets\jquery" />
+      <recent name="C:\wamp\www\bus\application\assets\img" />
+      <recent name="C:\wamp\www\bus\application\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\bus\application\views\templates" />
+      <recent name="C:\wamp\www\bus" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -345,13 +321,13 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
@@ -362,28 +338,15 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="0b2d8e3a-99e4-48ff-b466-7f9a21bfa1b0" server_name="University Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="095822de-c5c9-43fe-b297-5050da52c3fb" server_name="Web Programming 2 Dir">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.add.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.databaseConnection.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.register.php" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.register.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.databaseConnection.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.add.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-      </list>
-    </recent_temporary>
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -391,66 +354,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e987ca01-65b1-431c-944e-c9c02014fc3f" name="Default" comment="" />
-      <created>1418751126438</created>
+      <changelist id="e7dee4cc-a6df-4e5e-896a-cea523844370" name="Default" comment="" />
+      <created>1426417801672</created>
       <option name="number" value="Default" />
-      <updated>1418751126438</updated>
+      <updated>1426417801672</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added up to date index.php script">
-      <created>1418751568255</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1418751568255</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added up to date deployment file to synchronize with University Web Server">
-      <created>1418751832524</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1418751832524</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added up to date sql dialect file">
-      <created>1418752115038</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1418752115038</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added up to date sql dialect file">
-      <created>1418752705899</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1418752705899</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23231256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20696938" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10520833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26715946" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19852164" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2344245" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29883844" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07708553" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31302083" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -468,761 +404,528 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added up to date add.php script" />
-    <MESSAGE value="Added up to date index.php script" />
-    <MESSAGE value="Added up to date deployment file to synchronize with University Web Server" />
-    <MESSAGE value="Added up to date sql dialect file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added up to date sql dialect file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/databaseConnection.php</url>
-          <line>326</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/add.php">
+    <entry file="file://$PROJECT_DIR$/application/models/registration_center_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1479">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="2788">
-          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7531" max-vertical-offset="8976">
+          <caret line="452" column="59" selection-start-line="452" selection-start-column="59" selection-end-line="452" selection-end-column="59" />
           <folding>
-            <element signature="n#withdrawAttendee#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <element signature="n#verifyOrganiser#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <marker date="1421164754000" expanded="true" signature="1056:1155" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1251:1345" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1429:1477" placeholder="SELECT MAX(s..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="1497:1545" placeholder="SELECT MAX(s..Speaker..." />
-            <marker date="1421164754000" expanded="true" signature="2127:2184" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="3088:3156" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="4131:4244" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="4636:4914" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="5297:5381" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="5752:5803" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="6179:6252" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="6665:6727" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="6978:7143" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="7717:8517" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="7742:8055" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8081:8175" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8201:8301" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8327:8495" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="9091:9142" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="9542:9615" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="10060:10122" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="10393:10558" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="11172:11972" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11197:11510" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11536:11630" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11656:11756" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11782:11950" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="12829:13133" placeholder="SELECT DISTI..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="13312:13364" placeholder="DELETE FROM ..." />
-            <marker date="1421164754000" expanded="true" signature="13864:13935" placeholder="SELECT passw..Seminar_Organiser..." />
-            <marker date="1421164754000" expanded="true" signature="14352:15184" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="15396:16458" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="16688:16749" placeholder="SELECT passw..Centre_Management..." />
-            <marker date="1421164754000" expanded="true" signature="17090:17207" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="17492:18062" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="17515:18037" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18105:18222" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="18364:18376" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18535:19105" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18558:19080" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19153:19296" placeholder="SELECT Room...Allocated_Room..." />
-            <marker date="1421164754000" expanded="true" signature="19443:19455" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19593:19861" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19616:19836" placeholder="..." />
+            <marker date="1430064372000" expanded="true" signature="2313:2426" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="2826:3066" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="3762:4040" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="4749:4833" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="5209:5260" placeholder="SELECT MAX(a..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="5590:5663" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6043:6097" placeholder="SELECT atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="6427:6500" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6977:7195" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="7554:7637" placeholder="delete from ..." />
+            <marker date="1430064372000" expanded="true" signature="8046:8123" placeholder="select semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="8999:9098" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9194:9288" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9372:9420" placeholder="SELECT MAX(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="9440:9488" placeholder="SELECT MAX(s..Speaker..." />
+            <marker date="1430064372000" expanded="true" signature="10079:10136" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11047:11115" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11531:11574" placeholder="SELECT max(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12128:12278" placeholder="SELECT * fro..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12536:12554" placeholder="SELECT * fro..Room..." />
+            <marker date="1430064372000" expanded="true" signature="12854:13198" placeholder="SELECT DISTI..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="13699:13768" placeholder="SELECT passw..Seminar_Organiser..." />
+            <marker date="1430064372000" expanded="true" signature="14204:15154" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="15486:15901" placeholder="SELECT COUNT..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="16386:16450" placeholder="SELECT passw..Centre_Management..." />
+            <marker date="1430064372000" expanded="true" signature="16876:17191" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17470:17672" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17966:18361" placeholder="select Alloc..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="18597:18740" placeholder="SELECT Room...Allocated_Room..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/application/models/registration_center_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1989">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2788">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7786">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1421163132000" expanded="true" signature="2173:2385" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-            <marker date="1421163132000" expanded="true" signature="2173:2386" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="2313:2426" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="2826:3066" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="3762:4040" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="4749:4833" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="5209:5260" placeholder="SELECT MAX(a..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="5590:5663" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6043:6097" placeholder="SELECT atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="6427:6500" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6977:7195" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="7554:7637" placeholder="delete from ..." />
+            <marker date="1430064372000" expanded="true" signature="8046:8123" placeholder="select semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="8999:9098" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9194:9288" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9372:9420" placeholder="SELECT MAX(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="9440:9488" placeholder="SELECT MAX(s..Speaker..." />
+            <marker date="1430064372000" expanded="true" signature="10079:10136" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11047:11115" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11531:11574" placeholder="SELECT max(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12128:12278" placeholder="SELECT * fro..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12536:12554" placeholder="SELECT * fro..Room..." />
+            <marker date="1430064372000" expanded="true" signature="12854:13198" placeholder="SELECT DISTI..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="13699:13768" placeholder="SELECT passw..Seminar_Organiser..." />
+            <marker date="1430064372000" expanded="true" signature="14204:15154" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="15486:15901" placeholder="SELECT COUNT..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="16386:16450" placeholder="SELECT passw..Centre_Management..." />
+            <marker date="1430064372000" expanded="true" signature="16876:17191" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17470:17672" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17966:18361" placeholder="select Alloc..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="18597:18740" placeholder="SELECT Room...Allocated_Room..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Speaker.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/registration_center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2006">
+          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/registration_center_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6562" max-vertical-offset="6664">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding>
+            <marker date="1430064372000" expanded="true" signature="2313:2426" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="2826:3066" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="3762:4040" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="4749:4833" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="5209:5260" placeholder="SELECT MAX(a..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="5590:5663" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6043:6097" placeholder="SELECT atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="6427:6500" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6977:7195" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="7554:7637" placeholder="delete from ..." />
+            <marker date="1430064372000" expanded="true" signature="8046:8123" placeholder="select semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="8999:9098" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9194:9288" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9372:9420" placeholder="SELECT MAX(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="9440:9488" placeholder="SELECT MAX(s..Speaker..." />
+            <marker date="1430064372000" expanded="true" signature="10079:10136" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11047:11115" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11531:11574" placeholder="SELECT max(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12128:12278" placeholder="SELECT * fro..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12536:12554" placeholder="SELECT * fro..Room..." />
+            <marker date="1430064372000" expanded="true" signature="12854:13198" placeholder="SELECT DISTI..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="13699:13768" placeholder="SELECT passw..Seminar_Organiser..." />
+            <marker date="1430064372000" expanded="true" signature="14204:15154" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="15486:15901" placeholder="SELECT COUNT..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="16386:16450" placeholder="SELECT passw..Centre_Management..." />
+            <marker date="1430064372000" expanded="true" signature="16876:17191" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17470:17672" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17966:18361" placeholder="select Alloc..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="18597:18740" placeholder="SELECT Room...Allocated_Room..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/registration_center_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4646" max-vertical-offset="5610">
+          <caret line="288" column="9" selection-start-line="288" selection-start-column="9" selection-end-line="288" selection-end-column="9" />
+          <folding>
+            <marker date="1430064372000" expanded="true" signature="2313:2426" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="2826:3066" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="3762:4040" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="4749:4833" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="5209:5260" placeholder="SELECT MAX(a..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="5590:5663" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6043:6097" placeholder="SELECT atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="6427:6500" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6977:7195" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="7554:7637" placeholder="delete from ..." />
+            <marker date="1430064372000" expanded="true" signature="8046:8123" placeholder="select semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="8999:9098" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9194:9288" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9372:9420" placeholder="SELECT MAX(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="9440:9488" placeholder="SELECT MAX(s..Speaker..." />
+            <marker date="1430064372000" expanded="true" signature="10079:10136" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11047:11115" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11531:11574" placeholder="SELECT max(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12128:12278" placeholder="SELECT * fro..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12536:12554" placeholder="SELECT * fro..Room..." />
+            <marker date="1430064372000" expanded="true" signature="12854:13198" placeholder="SELECT DISTI..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="13699:13768" placeholder="SELECT passw..Seminar_Organiser..." />
+            <marker date="1430064372000" expanded="true" signature="14204:15154" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="15486:15901" placeholder="SELECT COUNT..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="16386:16450" placeholder="SELECT passw..Centre_Management..." />
+            <marker date="1430064372000" expanded="true" signature="16876:17191" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17470:17672" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17966:18361" placeholder="select Alloc..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="18597:18740" placeholder="SELECT Room...Allocated_Room..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/dom_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34266517" vertical-offset="16269" max-vertical-offset="36873">
+          <caret line="975" column="20" selection-start-line="975" selection-start-column="20" selection-end-line="975" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/database/DB_result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.23726852" vertical-offset="2568" max-vertical-offset="7072">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/jquery/jquery-2.1.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/Remus.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16037735" vertical-offset="0" max-vertical-offset="742">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/database/DB_active_rec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24944812" vertical-offset="33910" max-vertical-offset="34850">
+          <caret line="2008" column="41" selection-start-line="2008" selection-start-column="41" selection-end-line="2008" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8667413" vertical-offset="59" max-vertical-offset="1258">
+          <caret line="49" column="0" selection-start-line="48" selection-start-column="22" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Ftp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11305">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.144318" vertical-offset="1887" max-vertical-offset="8160">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="765" max-vertical-offset="2057">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6201117" vertical-offset="151" max-vertical-offset="867">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74006116" vertical-offset="145" max-vertical-offset="799">
+          <caret line="37" column="129" selection-start-line="37" selection-start-column="129" selection-end-line="37" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34556574" vertical-offset="3055" max-vertical-offset="21301">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34556574" vertical-offset="4449" max-vertical-offset="19567">
+          <caret line="275" column="9" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Form_validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4235474" vertical-offset="4755" max-vertical-offset="23596">
+          <caret line="296" column="13" selection-start-line="296" selection-start-column="13" selection-end-line="296" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/xml_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2237521" vertical-offset="711" max-vertical-offset="1292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/showdetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40536514" vertical-offset="0" max-vertical-offset="671">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.93740684" vertical-offset="629" max-vertical-offset="1581">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/bustimetable_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025335321" vertical-offset="0" max-vertical-offset="671">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Attendee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.19374" vertical-offset="14221" max-vertical-offset="14892">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/javascript/Jquery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5201192" vertical-offset="1020" max-vertical-offset="18292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.754098" vertical-offset="5874" max-vertical-offset="6545">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/URI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321859" vertical-offset="4159" max-vertical-offset="11220">
+          <caret line="256" column="104" selection-start-line="256" selection-start-column="104" selection-end-line="256" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.153846" vertical-offset="1964" max-vertical-offset="6256">
+          <caret line="128" column="51" selection-start-line="128" selection-start-column="51" selection-end-line="128" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Unit_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323398" vertical-offset="1392" max-vertical-offset="6596">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5979533" vertical-offset="246" max-vertical-offset="2788">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/utility_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019036954" vertical-offset="0" max-vertical-offset="893">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/xml_encode_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8566629" vertical-offset="0" max-vertical-offset="893">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Seminar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.961538" vertical-offset="135" max-vertical-offset="1054">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Centre_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05711086" vertical-offset="0" max-vertical-offset="893">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Seminar_Organiser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05711086" vertical-offset="0" max-vertical-offset="893">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/Speaker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32362822" vertical-offset="0" max-vertical-offset="901">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4574468" vertical-offset="2316" max-vertical-offset="3213">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/registration_center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2943" max-vertical-offset="3553">
+          <caret line="203" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="203" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3622951" vertical-offset="0" max-vertical-offset="610">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sql/sql_insert.sql">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30858085" vertical-offset="0" max-vertical-offset="606">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sql/create_database2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5188679" vertical-offset="2968" max-vertical-offset="3604">
+          <caret line="194" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/registration_center_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7531" max-vertical-offset="8976">
+          <caret line="452" column="59" selection-start-line="452" selection-start-column="59" selection-end-line="452" selection-end-column="59" />
+          <folding>
+            <marker date="1430064372000" expanded="true" signature="2313:2426" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="2826:3066" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="3762:4040" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="4749:4833" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="5209:5260" placeholder="SELECT MAX(a..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="5590:5663" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6043:6097" placeholder="SELECT atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="6427:6500" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="6977:7195" placeholder="SELECT Atten..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="7554:7637" placeholder="delete from ..." />
+            <marker date="1430064372000" expanded="true" signature="8046:8123" placeholder="select semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="8999:9098" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9194:9288" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="9372:9420" placeholder="SELECT MAX(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="9440:9488" placeholder="SELECT MAX(s..Speaker..." />
+            <marker date="1430064372000" expanded="true" signature="10079:10136" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11047:11115" placeholder="INSERT INTO ..." />
+            <marker date="1430064372000" expanded="true" signature="11531:11574" placeholder="SELECT max(s..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12128:12278" placeholder="SELECT * fro..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="12536:12554" placeholder="SELECT * fro..Room..." />
+            <marker date="1430064372000" expanded="true" signature="12854:13198" placeholder="SELECT DISTI..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="13699:13768" placeholder="SELECT passw..Seminar_Organiser..." />
+            <marker date="1430064372000" expanded="true" signature="14204:15154" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="15486:15901" placeholder="SELECT COUNT..Attendee..." />
+            <marker date="1430064372000" expanded="true" signature="16386:16450" placeholder="SELECT passw..Centre_Management..." />
+            <marker date="1430064372000" expanded="true" signature="16876:17191" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17470:17672" placeholder="SELECT Semin..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="17966:18361" placeholder="select Alloc..Seminar..." />
+            <marker date="1430064372000" expanded="true" signature="18597:18740" placeholder="SELECT Room...Allocated_Room..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="901">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Attendee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="867">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Seminar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="55" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
+    <entry file="file://$PROJECT_DIR$/application/views/registration_center_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1479">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="2788">
-          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
-          <folding>
-            <element signature="n#withdrawAttendee#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <element signature="n#verifyOrganiser#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <marker date="1421164754000" expanded="true" signature="1056:1155" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1251:1345" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1429:1477" placeholder="SELECT MAX(s..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="1497:1545" placeholder="SELECT MAX(s..Speaker..." />
-            <marker date="1421164754000" expanded="true" signature="2127:2184" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="3088:3156" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="4131:4244" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="4636:4914" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="5297:5381" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="5752:5803" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="6179:6252" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="6665:6727" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="6978:7143" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="7717:8517" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="7742:8055" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8081:8175" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8201:8301" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8327:8495" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="9091:9142" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="9542:9615" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="10060:10122" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="10393:10558" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="11172:11972" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11197:11510" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11536:11630" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11656:11756" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11782:11950" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="12829:13133" placeholder="SELECT DISTI..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="13312:13364" placeholder="DELETE FROM ..." />
-            <marker date="1421164754000" expanded="true" signature="13864:13935" placeholder="SELECT passw..Seminar_Organiser..." />
-            <marker date="1421164754000" expanded="true" signature="14352:15184" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="15396:16458" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="16688:16749" placeholder="SELECT passw..Centre_Management..." />
-            <marker date="1421164754000" expanded="true" signature="17090:17207" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="17492:18062" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="17515:18037" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18105:18222" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="18364:18376" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18535:19105" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18558:19080" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19153:19296" placeholder="SELECT Room...Allocated_Room..." />
-            <marker date="1421164754000" expanded="true" signature="19443:19455" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19593:19861" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19616:19836" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1989">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1421163132000" expanded="true" signature="2173:2385" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-            <marker date="1421163132000" expanded="true" signature="2173:2386" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Speaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="901">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Attendee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="867">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Seminar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="55" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
+        <state vertical-scroll-proportion="9.134378" vertical-offset="207" max-vertical-offset="13005">
+          <caret line="492" column="21" selection-start-line="492" selection-start-column="21" selection-end-line="492" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1479">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#withdrawAttendee#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <element signature="n#verifyOrganiser#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <marker date="1421164754000" expanded="true" signature="1056:1155" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1251:1345" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1429:1477" placeholder="SELECT MAX(s..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="1497:1545" placeholder="SELECT MAX(s..Speaker..." />
-            <marker date="1421164754000" expanded="true" signature="2127:2184" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="3088:3156" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="4131:4244" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="4636:4914" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="5297:5381" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="5752:5803" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="6179:6252" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="6665:6727" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="6978:7143" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="7717:8517" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="7742:8055" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8081:8175" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8201:8301" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8327:8495" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="9091:9142" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="9542:9615" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="10060:10122" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="10393:10558" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="11172:11972" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11197:11510" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11536:11630" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11656:11756" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11782:11950" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="12829:13133" placeholder="SELECT DISTI..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="13312:13364" placeholder="DELETE FROM ..." />
-            <marker date="1421164754000" expanded="true" signature="13864:13935" placeholder="SELECT passw..Seminar_Organiser..." />
-            <marker date="1421164754000" expanded="true" signature="14352:15184" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="15396:16458" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="16688:16749" placeholder="SELECT passw..Centre_Management..." />
-            <marker date="1421164754000" expanded="true" signature="17090:17207" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="17492:18062" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="17515:18037" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18105:18222" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="18364:18376" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18535:19105" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18558:19080" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19153:19296" placeholder="SELECT Room...Allocated_Room..." />
-            <marker date="1421164754000" expanded="true" signature="19443:19455" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19593:19861" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19616:19836" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1989">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="748">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1421163132000" expanded="true" signature="2173:2385" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-            <marker date="1421163132000" expanded="true" signature="2173:2386" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Speaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="901">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Attendee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="867">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Seminar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1071">
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="901">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="n#withdrawAttendee#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <element signature="n#verifyOrganiser#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <marker date="1421164754000" expanded="true" signature="1056:1155" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1251:1345" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1429:1477" placeholder="SELECT MAX(s..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="1497:1545" placeholder="SELECT MAX(s..Speaker..." />
-            <marker date="1421164754000" expanded="true" signature="2127:2184" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="3088:3156" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="4131:4244" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="4636:4914" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="5297:5381" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="5752:5803" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="6179:6252" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="6665:6727" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="6978:7143" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="7717:8517" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="7742:8055" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8081:8175" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8201:8301" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8327:8495" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="9091:9142" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="9542:9615" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="10060:10122" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="10393:10558" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="11172:11972" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11197:11510" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11536:11630" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11656:11756" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11782:11950" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="12829:13133" placeholder="SELECT DISTI..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="13312:13364" placeholder="DELETE FROM ..." />
-            <marker date="1421164754000" expanded="true" signature="13864:13935" placeholder="SELECT passw..Seminar_Organiser..." />
-            <marker date="1421164754000" expanded="true" signature="14352:15184" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="15396:16458" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="16688:16749" placeholder="SELECT passw..Centre_Management..." />
-            <marker date="1421164754000" expanded="true" signature="17090:17207" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="17492:18062" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="17515:18037" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18105:18222" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="18364:18376" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18535:19105" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18558:19080" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19153:19296" placeholder="SELECT Room...Allocated_Room..." />
-            <marker date="1421164754000" expanded="true" signature="19443:19455" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19593:19861" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19616:19836" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1632">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Seminar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1122">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1513">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1411">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/withdraw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2125">
-          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Attendee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="867">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Seminar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Speaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="901">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2474804" vertical-offset="0" max-vertical-offset="893">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ticket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7995521" vertical-offset="0" max-vertical-offset="1309">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="510" max-vertical-offset="2074">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="e#387#468#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Centre_Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="629">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seminarOverview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077" vertical-offset="663" max-vertical-offset="2023">
-          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
-          <folding>
-            <element signature="e#323#404#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="17" max-vertical-offset="1326">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seminarOrganiser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3461537" vertical-offset="109" max-vertical-offset="782">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.769231" vertical-offset="4517" max-vertical-offset="6766">
-          <caret line="354" column="54" selection-start-line="354" selection-start-column="54" selection-end-line="354" selection-end-column="54" />
-          <folding>
-            <element signature="n#withdrawAttendee#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <element signature="n#verifyOrganiser#0;n#databaseConnection#0;n#!!top" expanded="false" />
-            <marker date="1421164754000" expanded="true" signature="1056:1155" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1251:1345" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="1429:1477" placeholder="SELECT MAX(s..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="1497:1545" placeholder="SELECT MAX(s..Speaker..." />
-            <marker date="1421164754000" expanded="true" signature="2127:2184" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="3088:3156" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="4131:4244" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="4636:4914" placeholder="SELECT Atten..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="5297:5381" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="5752:5803" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="6179:6252" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="6665:6727" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="6978:7143" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="7717:8517" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="7742:8055" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8081:8175" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8201:8301" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="8327:8495" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="9091:9142" placeholder="SELECT MAX(a..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="9542:9615" placeholder="INSERT INTO ..." />
-            <marker date="1421164754000" expanded="true" signature="10060:10122" placeholder="SELECT MAX(t..Attendee_attends_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="10393:10558" placeholder="SELECT DISTI..Seminar..." />
-            <marker date="1421164754000" expanded="false" signature="11172:11972" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11197:11510" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11536:11630" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11656:11756" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="11782:11950" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="12829:13133" placeholder="SELECT DISTI..Attendee..." />
-            <marker date="1421164754000" expanded="true" signature="13312:13364" placeholder="DELETE FROM ..." />
-            <marker date="1421164754000" expanded="true" signature="13864:13935" placeholder="SELECT passw..Seminar_Organiser..." />
-            <marker date="1421164754000" expanded="true" signature="14352:15184" placeholder="SELECT Semin..Seminar_Organiser_has_Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="15396:16458" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="16688:16749" placeholder="SELECT passw..Centre_Management..." />
-            <marker date="1421164754000" expanded="true" signature="17090:17207" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="17492:18062" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="17515:18037" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18105:18222" placeholder="SELECT Semin..Seminar..." />
-            <marker date="1421164754000" expanded="true" signature="18364:18376" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18535:19105" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="18558:19080" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19153:19296" placeholder="SELECT Room...Allocated_Room..." />
-            <marker date="1421164754000" expanded="true" signature="19443:19455" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19593:19861" placeholder="..." />
-            <marker date="1421164754000" expanded="true" signature="19616:19836" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.076923" vertical-offset="808" max-vertical-offset="2873">
-          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1421163132000" expanded="true" signature="2173:2385" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-            <marker date="1421163132000" expanded="true" signature="2173:2386" placeholder="SELECT DISTI..Attendee_attends_Seminar..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/98c96163/bafa3653-8e9b-43c9-a8b9-50f3f5887df1/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="357" max-vertical-offset="1479">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30312034" vertical-offset="1224" max-vertical-offset="2924">
-          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="e#56#196#0#PHP" expanded="true" />
-            <marker date="1421179150000" expanded="true" signature="472:497" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="595:618" placeholder="SELECT roomI..Room..." />
-            <marker date="1421179150000" expanded="true" signature="704:738" placeholder="SELECT roomN..Room..." />
-            <marker date="1421179150000" expanded="true" signature="2173:2209" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2455:2647" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="2482:2634" placeholder="{...}" />
-            <marker date="1421179150000" expanded="true" signature="2712:2726" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3356" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3283:3358" placeholder="..." />
-            <marker date="1421179150000" expanded="true" signature="3301:3343" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>

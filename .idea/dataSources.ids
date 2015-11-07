@@ -1,105 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="MySQL - CSY2028_13430492@194.81.104.22" uuid="bafa3653-8e9b-43c9-a8b9-50f3f5887df1">
+  <data-source name="MySQL - Assigment2" uuid="e0c2fa33-4f21-46d7-a15f-719b27be93c8">
     <database-info product="MySQL" version="5.5.40" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
-    <schema name="" catalog="CSY2028_13430492"/>
-    <table name="Allocated_Room" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="roomId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="seminarId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="roomId,seminarId"/>
-      <foreign-key name="fk_Room_has_Seminar_Room1" columns="roomId" ref-table="Room" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="roomId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_Room_has_Seminar_Seminar1" columns="seminarId" ref-table="Seminar" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="seminarId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="fk_Room_has_Seminar_Room1_idx" unique="false" columns="roomId"/>
-      <index name="fk_Room_has_Seminar_Seminar1_idx" unique="false" columns="seminarId"/>
-    </table>
-    <table name="Attendee" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="attendeeId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="firstName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="email" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="institution" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="attendeeId"/>
-      <exported-key name="fk_Attendee_has_Seminar_Attendee" table="Attendee_attends_Seminar" schema="" catalog="CSY2028_13430492" columns="attendeeId"/>
-    </table>
-    <table name="Attendee_attends_Seminar" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="ticketId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="attendeeId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="seminarId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="ticketId"/>
-      <foreign-key name="fk_Attendee_has_Seminar_Attendee" columns="attendeeId" ref-table="Attendee" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="attendeeId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_Attendee_has_Seminar_Seminar1" columns="seminarId" ref-table="Seminar" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="seminarId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="fk_Attendee_has_Seminar_Attendee_idx" unique="false" columns="attendeeId"/>
-      <index name="fk_Attendee_has_Seminar_Seminar1_idx" unique="false" columns="seminarId"/>
-    </table>
-    <table name="Centre_Management" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="login" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
-      <column name="password" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="firstName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="email" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="login"/>
-    </table>
-    <table name="Room" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="roomId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="available" sqlType="TINYINT" precision="3" scale="0" nullable="true" jdbcType="-6"/>
-      <column name="capacity" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="location" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="roomId"/>
-      <exported-key name="fk_Room_has_Seminar_Room1" table="Allocated_Room" schema="" catalog="CSY2028_13430492" columns="roomId"/>
-    </table>
-    <table name="Seminar" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="seminarId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="title" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="startTime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
-      <column name="endTime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
-      <column name="description" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12"/>
-      <column name="placesAvailable" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="seminarId"/>
-      <exported-key name="fk_Room_has_Seminar_Seminar1" table="Allocated_Room" schema="" catalog="CSY2028_13430492" columns="seminarId"/>
-      <exported-key name="fk_Attendee_has_Seminar_Seminar1" table="Attendee_attends_Seminar" schema="" catalog="CSY2028_13430492" columns="seminarId"/>
-      <exported-key name="fk_Seminar_Organiser_has_Seminar_Seminar1" table="Seminar_Organiser_has_Seminar" schema="" catalog="CSY2028_13430492" columns="seminarId"/>
-      <exported-key name="fk_Speaker_has_Seminar_Seminar1" table="Seminar_has_Speaker" schema="" catalog="CSY2028_13430492" columns="seminarId"/>
-    </table>
-    <table name="Seminar_Organiser" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="seminar_organiser_Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="firstName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="login_name" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="password" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="seminar_organiser_Id"/>
-      <exported-key name="fk_Seminar_Organiser_has_Seminar_Seminar_Organiser1" table="Seminar_Organiser_has_Seminar" schema="" catalog="CSY2028_13430492" columns="seminar_organiser_Id"/>
-    </table>
-    <table name="Seminar_Organiser_has_Seminar" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="seminar_organiser_Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="seminarId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="seminar_organiser_Id,seminarId"/>
-      <foreign-key name="fk_Seminar_Organiser_has_Seminar_Seminar_Organiser1" columns="seminar_organiser_Id" ref-table="Seminar_Organiser" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="seminar_organiser_Id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_Seminar_Organiser_has_Seminar_Seminar1" columns="seminarId" ref-table="Seminar" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="seminarId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="fk_Seminar_Organiser_has_Seminar_Seminar1_idx" unique="false" columns="seminarId"/>
-      <index name="fk_Seminar_Organiser_has_Seminar_Seminar_Organiser1_idx" unique="false" columns="seminar_organiser_Id"/>
-    </table>
-    <table name="Seminar_has_Speaker" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="speakerId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="seminarId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="speakerId,seminarId"/>
-      <foreign-key name="fk_Speaker_has_Seminar_Speaker1" columns="speakerId" ref-table="Speaker" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="speakerId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="fk_Speaker_has_Seminar_Seminar1" columns="seminarId" ref-table="Seminar" ref-schema="" ref-catalog="CSY2028_13430492" ref-columns="seminarId" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="fk_Speaker_has_Seminar_Seminar1_idx" unique="false" columns="seminarId"/>
-      <index name="fk_Speaker_has_Seminar_Speaker1_idx" unique="false" columns="speakerId"/>
-    </table>
-    <table name="Speaker" schema="" catalog="CSY2028_13430492" type="TABLE">
-      <column name="speakerId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="firstName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="lastName" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="email" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="address" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <column name="institution" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="speakerId"/>
-      <exported-key name="fk_Speaker_has_Seminar_Speaker1" table="Seminar_has_Speaker" schema="" catalog="CSY2028_13430492" columns="speakerId"/>
-    </table>
   </data-source>
 </component>

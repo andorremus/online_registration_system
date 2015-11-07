@@ -55,7 +55,7 @@ class databaseConnection
         $maxResult = $this->link->query($sql3);
         $row = $maxResult->fetch_assoc();
         $maxSeminarNo = $row['seminarNo'];
-        echo "MaxSem: ".$maxSeminarNo;
+        //echo "MaxSem: ".$maxSeminarNo;
 
         // Query definition for assigning room number and seminar id into Allocated_Room table
         $sql2 = "INSERT INTO Allocated_Room VALUES ($maxSeminarNo,$roomId)";
@@ -81,11 +81,11 @@ class databaseConnection
         $maxResult2 = $this->link->query($sql4);
         $row2 = $maxResult2->fetch_assoc();
         $maxSpeakerNo = $row2['speakerNo'];
-        echo "MaxSpe: ".$maxSpeakerNo;
+        //echo "MaxSpe: ".$maxSpeakerNo;
 
         // Query definition for inserting the seminar no and speaker no into the table
         $sqlSeminarSpeaker = "INSERT INTO Seminar_has_Speaker VALUES ($maxSpeakerNo,$maxSeminarNo)";
-        echo $sqlSeminarSpeaker;
+        //echo $sqlSeminarSpeaker;
 
         if(!($this->link->query($sqlSeminarSpeaker) ) ) // Actual querying to insert values into Seminar_has_Speaker
         {
@@ -97,8 +97,6 @@ class databaseConnection
         }
 
 
-        $maxResult->free();
-        $this->link->close();
 
     }
 
@@ -138,7 +136,7 @@ class databaseConnection
             {
                 die('There was an error running the query sqlInsertAttendee' . $this->link->error);
             } else {
-                echo "<h2>Registration was successful!</h2>";
+                //echo "<h2>Registration was successful!</h2>";
             }
 
             $sqlAttendeeNo = "SELECT MAX(attendeeId) AS  attendeeNo FROM Attendee";
@@ -156,7 +154,7 @@ class databaseConnection
             if (!($this->link->query($sqlAssignTicketNo))) {
                 die('There was an error running the query sqlAssignTicket' . $this->link->error);
             } else {
-                echo "<h2>The ticket assigning was successful!</h2>";
+                //echo "<h2>The ticket assigning was successful!</h2>";
             }
 
             // The code to retrieve all the details for the ticket printing
@@ -183,9 +181,9 @@ class databaseConnection
 
             echo '<table id="tableTicket">
                     <tr>
-                         <td id="seminarNo" rowspan="4"><h2>Seminar No: ' . $seminarId . '</h2></td>
+                         <td id="seminarNo" rowspan="5"><h2>Seminar No: ' . $seminarId . '</h2></td>
                          <td id="names"> ' . $firstName . ' ' . $lastName . '</td>
-                         <td id="ticketId" rowspan="4"><h2>Ticket Id:<br> ' . $ticketNo . ' </h2></td>
+                         <td id="ticketId" rowspan="5"><h2>Ticket Id:<br> ' . $ticketNo . ' </h2></td>
                     </tr>
 
                     <tr>
@@ -199,6 +197,13 @@ class databaseConnection
                     <tr>
                         <td id="locationAndTime"> ' . $roomName . ' - ' . $location . ' <br> Starting Time and Date : ' . $startTime . '</td>
                     </tr>
+
+                    <tr>
+                         <td>
+                             You can unsubscribe by accessing the following link: <br>
+                             http://www.computing.northampton.ac.uk/~13430492/CSY2028/assign1/withdraw.php?firstName='.$firstName.'&lastName='.$lastName.'&email='.$email.'&institution='.$institution.'&seminarId='.$seminarId.'>
+                         </td>
+                    </tr>
              </table>';
 
             // The link to withdrawal page
@@ -211,7 +216,7 @@ class databaseConnection
         else
         {
             echo " <br> You are already registered !";
-            if(is_null($isAlreadyRegisteredForSeminar))
+            if(is_null($isAlreadyRegisteredForSeminar)) // Check if the person is already registered for the seminar
             {
 
                 $sqlAttendeeNo = "SELECT MAX(attendeeId) AS  attendeeNo FROM Attendee";
@@ -365,27 +370,40 @@ class databaseConnection
                              GROUP BY Attendee_attends_Seminar.seminarId";
 
         $seminarDetails = $this->link->query($sqlGetSeminars);
-        //echo $seminarDetails->num_rows;
-        while($row = $seminarDetails->fetch_assoc())
-        {
+        $sqlGetAttendee = "SELECT Seminar_Organiser_has_Seminar.seminarId,COUNT(Attendee.institution) as noOfPeople,Attendee.institution
+                             FROM Attendee JOIN Attendee_attends_Seminar USING (attendeeId)  JOIN Seminar USING (seminarId) JOIN Seminar_Organiser_has_Seminar USING (seminarId)
+                             JOIN Seminar_Organiser USING (login_name) WHERE login_name='$login_name'
+                             GROUP BY Attendee.institution ORDER BY seminarId";
+
+        $attendeeDetails = $this->link->query($sqlGetAttendee);
+        while ($row = $seminarDetails->fetch_assoc()) {
             echo '<table class="regForm">
-                        <thead><h2><b>Seminar No: '. $row['seminarId'] .'</b></h2>  </thead>
-                              <tr> <td>Seminar Id: </td><td> '.$row['seminarId'] . ' </td></tr>
-                              <tr> <td>Seminar Title: </td> <td> '.$row['title'] . ' </td></tr>
-                              <tr> <td>Organiser\'s First Name: </td> <td>'.$row['firstName'] . '</td></tr>
-                              <tr> <td>Organiser\'s Last Name: </td> <td>'.$row['lastName'] . '</td></tr>
-                              <tr> <td>Seminar Starting Time: </td> <td>'.$row['startTime'] . '</td></tr>
-                              <tr> <td>Seminar Ending Time: </td> <td>'.$row['startTime'] . '</td></tr>
-                              <tr> <td>Seminar Description: </td> <td>'.$row['description'] . '</td></tr>
-                              <tr> <td>Places Available: </td> <td>'.$row['placesAvailable'] . '</td></tr>
-                              <tr> <td>Places Filled so Far: </td> <td>'.$row['placesFilledSoFar'] . '</td></tr>
+                        <thead><h2><b>Seminar No: ' . $row['seminarId'] . '</b></h2>  </thead>
+                              <tr> <td>Seminar Id: </td><td> ' . $row['seminarId'] . ' </td></tr>
+                              <tr> <td>Seminar Title: </td> <td> ' . $row['title'] . ' </td></tr>
+                              <tr> <td>Organiser\'s First Name: </td> <td>' . $row['firstName'] . '</td></tr>
+                              <tr> <td>Organiser\'s Last Name: </td> <td>' . $row['lastName'] . '</td></tr>
+                              <tr> <td>Seminar Starting Time: </td> <td>' . $row['startTime'] . '</td></tr>
+                              <tr> <td>Seminar Ending Time: </td> <td>' . $row['endTime'] . '</td></tr>
+                              <tr> <td>Seminar Description: </td> <td>' . $row['description'] . '</td></tr>
+                              <tr> <td>Places Available: </td> <td>' . $row['placesAvailable'] . '</td></tr>
+                              <tr> <td>Places Filled so Far: </td> <td>' . $row['placesFilledSoFar'] . '</td></tr>
                   </table>';
         }
-
-
-
-
+        echo '<h2>In the following you can see to which institutions the attendees belong to:</h2>
+             <table id="instNo">
+                                <tr> <td>No of People: </td><td>Institution: </td></tr>';
+        while ($row2 = $attendeeDetails->fetch_assoc())
+        {
+                                echo '<tr> <td> ' . $row2['noOfPeople'] . ' </td>  <td> ' . $row2['institution'] . ' </td></tr>';
+        }
+        echo '</table>';
     }
+
+
+
+
+
 
     public function verifyManager(Centre_Manager $manager)
     {
@@ -411,7 +429,8 @@ class databaseConnection
 
     public function displayOverview()
     {
-        $sqlGetSeminars = "SELECT Seminar.seminarId,Seminar.title,Seminar.description,startTime,endTime FROM Seminar WHERE startTime < curdate()";
+        $sqlGetSeminars = "SELECT Seminar.seminarId,Seminar.title,Seminar.description,startTime,endTime,COUNT(Attendee_attends_Seminar.ticketId) as attendance
+                            FROM Seminar JOIN Attendee_attends_Seminar USING (seminarId) WHERE startTime < curdate() GROUP BY Attendee_attends_Seminar.seminarId ORDER BY startTime ASC ";
 
 
         $seminarDetails = $this->link->query($sqlGetSeminars);
@@ -424,35 +443,62 @@ class databaseConnection
                               <tr> <td>Seminar Id: </td><td> '.$row['seminarId'] . ' </td></tr>
                               <tr> <td>Seminar Title: </td> <td> '.$row['title'] . ' </td></tr>
                               <tr> <td>Seminar Starting Time: </td> <td>'.$row['startTime'] . '</td></tr>
-                              <tr> <td>Seminar Ending Time: </td> <td>'.$row['startTime'] . '</td></tr>
+                              <tr> <td>Seminar Ending Time: </td> <td>'.$row['endTime'] . '</td></tr>
+                               <tr> <td>Attendance: </td> <td>'.$row['attendance'] . '</td></tr>
                   </table>
                   </div>';
         }
 
-        $sqlGetSeminars2 = "SELECT Seminar.seminarId,Seminar.title,Seminar.description,startTime,endTime FROM Seminar WHERE startTime > curdate()";
+        $sqlGetSeminars2 = "SELECT Seminar.seminarId,Seminar.title,Seminar.description,startTime,endTime,roomId as room FROM Seminar join Allocated_Room using (seminarId) WHERE startTime > curdate()";
+
+        $sqlGetAverage = "select Allocated_Room.roomId, (  COUNT(Attendee_attends_Seminar.ticketId) / Count( DISTINCT Attendee_attends_Seminar.seminarId) ) as average
+                          from Seminar join Allocated_Room using(seminarId) JOIN Attendee_attends_Seminar using(seminarId)
+                          where startTime < curdate()
+                          group by roomId";
+
+        $sqlGetAverageResult = $this->link->query($sqlGetAverage);
+
+        $roomAverage = array();
+        $x = 1;
+        while($row = $sqlGetAverageResult->fetch_assoc())            // Loop through the room details query result and assign them to another array to display later
+        {
+            $roomAverage['roomNo'.$x] = (int)$row['roomId'];
+            $roomAverage['average'.$x] = (int)$row['average'];
+            $x++;
+        }
+        //var_dump($roomAverage);
 
 
         $seminarDetails2 = $this->link->query($sqlGetSeminars2);
         //echo $seminarDetails->num_rows;
-        echo "</br><h2 style='float: left;'><b> The following are upcoming seminars: </b></h2> ";
-        while($row = $seminarDetails2->fetch_assoc())
-        {
+        echo "</br><h2><b> The following are upcoming seminars: </b></h2> ";
+        while($row = $seminarDetails2->fetch_assoc()) {
             echo '<div class="divStyle"><table class="regForm">
-                        <thead><h2><b>Seminar No: '. $row['seminarId'] .'</b></h2>  </thead>
-                              <tr> <td>Seminar Id: </td><td> '.$row['seminarId'] . ' </td></tr>
-                              <tr> <td>Seminar Title: </td> <td> '.$row['title'] . ' </td></tr>
-                              <tr> <td>Seminar Starting Time: </td> <td>'.$row['startTime'] . '</td></tr>
-                              <tr> <td>Seminar Ending Time: </td> <td>'.$row['startTime'] . '</td></tr>
-                  </table>
-                  </div>';
-        }
+                        <thead><h2><b>Seminar No: ' . $row['seminarId'] . '</b></h2>  </thead>
+                              <tr> <td>Seminar Id: </td><td> ' . $row['seminarId'] . ' </td></tr>
+                              <tr> <td>Seminar Title: </td> <td> ' . $row['title'] . ' </td></tr>
+                              <tr> <td>Seminar Starting Time: </td> <td>' . $row['startTime'] . '</td></tr>
+                              <tr> <td>Seminar Ending Time: </td> <td>' . $row['endTime'] . '</td></tr>';
+                              for($i = 1; $i <= count($roomAverage) /2 ; $i++)
+                              {
+
+                                  if($roomAverage['roomNo'.$i] == $row['room'])
+                                  {
+                                      echo '<tr> <td>Expected Attendance: </td> <td>' . $roomAverage['average'.$i] . '</td></tr>';
+                                  }
+                                  else;
+                              }
+            echo ' </table>
+                      </div>';
+            }
+
 
         $sqlGetRoomPopularity = "SELECT Room.roomId,COUNT(DISTINCT Allocated_Room.seminarId) as seminarsHosted FROM Allocated_Room JOIN Room USING (roomId) GROUP BY Room.roomId;";
 
 
         $roomPopularity = $this->link->query($sqlGetRoomPopularity);
         //echo $seminarDetails->num_rows;
-        echo "</br><h2 style='float: left;'><b> Room popularity: </b></h2> ";
+        echo "</br><h2><b> Room popularity: </b></h2> ";
         while($row = $roomPopularity->fetch_assoc())
         {
             echo '<div class="divStyle"><table class="regForm">
@@ -460,13 +506,11 @@ class databaseConnection
                               <tr> <td>Seminars Hosted </td><td> '.$row['seminarsHosted'] . ' </td></tr>
 
                   </table>
+                  <br><br>
                   </div>';
         }
 
     }
-
-
-
     public function getLink()
     {
         return $this->link;

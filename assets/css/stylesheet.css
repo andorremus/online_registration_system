@@ -1,0 +1,183 @@
+body
+{
+  
+ font-family:"Book Antiqua","Times New Roman";
+ font-style: normal;
+ background-image:url(..//img/bg_pattern.gif);
+ overflow: auto;
+
+ 
+}
+#content /* Here starts the content */
+{
+    border:1px black solid;
+    border-radius:10px;
+    position: relative;
+    text-align:left;
+    display: block;
+    width: auto;
+    padding:5px 5px 5px 5px;
+    margin-top: 20px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    margin-right: 20px;
+    box-shadow: 1px 1px gray;
+    min-height: 300px;
+}
+
+
+#page /*this is the whole page*/
+{
+margin: 0 auto 0 auto;
+height: auto;
+position: relative;
+border:1px solid black;
+border-radius: 10px;
+width: 1000px;
+background-color:white;
+padding:10px 10px 10px 10px ;
+
+}
+#header/*This is the header*/
+{
+    width: auto;
+    height: 200px;
+    border:5px;
+    display:block;
+}
+#homelogo
+{
+    background-image: url(..//img/Remus.jpg);
+    width: 278px;
+    height: 124px;
+    text-indent: -9999px;
+    position: absolute;
+    left:10px;
+    top:20px;
+    display: inline-block;
+    clear:both;
+    
+}
+#klogo
+{
+   background-image:url(..//img/kisp.jpg);
+   width: 478px;
+   height: 161px;
+   display: inline-block;
+   text-indent: -999px;
+   clear:left;
+   margin-left: 500px;
+
+}
+#clock
+{ 
+  width:190px;
+  height: 34px;
+  display: block;
+  clear:both;
+}
+
+
+#leftpage /* Here starts the left part of the page */
+{
+    margin-top: 20px;
+    border:1px black solid;
+    width:105px;
+    border-radius: 10px;
+    height: auto;
+    display: block;
+    float:left;
+
+
+}
+.menuItem
+{
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Here ends the left part of the page */
+
+#footer/* Here starts the footer */
+{
+    text-align: center;
+    display:block;
+    border: 1px solid black;
+    box-shadow: 1px 1px gray;
+    border-radius: 5px;
+    margin:10px 5px 5px 5px;
+
+}
+
+.ticketText
+{
+    text-align: center;
+    border: solid 1px black;
+    padding: 5px;
+}
+#tableTicket
+{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    border-color: #000000;
+    width: 50%;
+
+}
+#seminarNo
+{
+    font-size: 20px;
+    text-align: center;
+}
+#ticketId
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+#description
+{
+    height: auto;
+    width: auto;
+}
+.seminarTable
+{
+    border: solid #000000 1px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.seminarTable caption
+{
+    font-size: 15px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+}
+
+.seminarTable td
+{
+    font-size: 12px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map-canvas { height: 100% }
+
+#mapsDiv
+{
+    width: 100%;
+    height: 300px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+
+
